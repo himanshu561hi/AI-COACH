@@ -1,5 +1,5 @@
-const GEMINI_API_KEY = 'AIzaSyDCDfMtzYLyIlO9f6ZLXIFY6TlzzGWkjpk'; // Replace with a valid API key from Google AI Studio
-const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent'; // Updated endpoint for gemini-1.5-flash
+const GEMINI_API_KEY = 'AIzaSyCHrdhrzDh1TMPSnnkP0dtkzKo6jboFhic'; // Replace with a valid API key from Google AI Studio
+const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent'; // Updated endpoint for gemini-1.5-flash
 const EXCHANGE_RATE = 83; // 1 USD = 83 INR (approximate 2024 rate)
 
 export const getJobOpportunitiesAnalysis = async (formData) => {

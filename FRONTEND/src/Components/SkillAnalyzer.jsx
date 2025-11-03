@@ -60,7 +60,7 @@ const SkillAnalyzer = () => {
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
 
-  const genAI = new GoogleGenerativeAI('AIzaSyBnWJ8qiTLZrKvg25Y-JOOgcv1aiczzNdQ'); // new api key using skill analyzer email dipanjali
+  const genAI = new GoogleGenerativeAI('AIzaSyCHrdhrzDh1TMPSnnkP0dtkzKo6jboFhic'); // new api key using skill analyzer email dipanjali
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
